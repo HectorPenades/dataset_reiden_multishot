@@ -6,7 +6,7 @@ This repository contains a group of functions in C++ for training deep networks 
 
 - Dataset used: PRID 2011
 
-This functions follows a similar structure of the single-shot code: data_factory_from_reid, avalaible in  https://github.com/magomezs/dataset_factory.
+This functions follow a similar structure of the single-shot code: data_factory_from_reid, avalaible at https://github.com/magomezs/dataset_factory.
 
 
 # Citation
@@ -16,12 +16,16 @@ Please cite dataset_reiden_multishot in your publications if it helps your resea
 
 
 
-# Example of how to use data_factory_from_reid
-This is an example of how to use data_factory_from_reid_multi with PRID2011[2]:
+# Example of how to use data_factory_from_reid_multi
+This is an example of how to use data_factory_from_reid_multi with PRID2011 [2]:
  <br />
   <br />
 
-	string prid= "PRID_DATASET_DIRECTORY";  <br />
+	string prid= "PRID_DATASET_DIRECTORY"; 
+		read_initial_parameters(argc, argv, &seed, &number_of_b_samples, &stride, &random_b_samples); 
+	
+	
+  string 
   read_initial_parameters(argc, argv, &seed, &number_of_b_samples, &stride, &random_b_samples);  <br />
 	get_multiple_samples(prid, 7,4, number_of_b_samples,stride, random_b_samples); <br />
 	for(int i=1; i<number_of_b_samples+1; i++) <br />
