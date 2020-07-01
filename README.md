@@ -20,7 +20,7 @@ Please cite dataset_reiden_multishot in your publications if it helps your resea
 This is an example of how to use data_factory_from_reid with PRID2011[2]:
  <br />
   <br />
-   <br />
+
 	string prid= "PRID_DATASET_DIRECTORY";  <br />
   read_initial_parameters(argc, argv, &seed, &number_of_b_samples, &stride, &random_b_samples);  <br />
 	get_multiple_samples(prid, 7,4, number_of_b_samples,stride, random_b_samples); <br />
