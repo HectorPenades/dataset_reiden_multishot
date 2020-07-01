@@ -1,6 +1,6 @@
 # dataset_reiden_multishot
 
-This repository contains one group of functions in C++ for training deep networks with Caffe:
+This repository contains a group of functions in C++ for training deep networks with Caffe:
 
 - dataset_reiden_multishot: generation of pairs from Re-Identification datasets with the division of the samples in train, validation and test sets for the multi-shot re-identification problem described in [1]. Additionally, the code allows several strategies for obtaining multiple images from one of the cameras.
 
