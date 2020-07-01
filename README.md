@@ -23,7 +23,7 @@ This is an example of how to use data_factory_from_reid with PRID2011[2]:
   read_initial_parameters(argc, argv, &seed, &number_of_b_samples, &stride, &random_b_samples);  <br />
 	get_multiple_samples(prid, 7,4, number_of_b_samples,stride, random_b_samples); <br />
 	for(int i=1; i<number_of_b_samples+1; i++) <br />
-      train_val_test_division_multiple(prid, 100, 100, 100, 10, 100, 649, 100, &tag, i); <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;train_val_test_division_multiple(prid, 100, 100, 100, 10, 100, 649, 100, &tag, i); <br />
   create_pair_data_multiple(prid, 100000, 10000, 1, 1, 1);    <br />
   for(int i=2; i<number_of_b_samples+1; i++) <br />
       create_pair_data_multiple_remaining(prid, i); <br />
