@@ -12,7 +12,8 @@ This functions follow a similar structure of the single-shot code: data_factory_
 # Citation
 Please cite dataset_reiden_multishot in your publications if it helps your research:
 
-	José Héctor Penadés-Migallón, Re-identificación de personas a partir de múltiples capturas mediante aprendizaje automático, Trabajo Fin de Grado, Universidad Carlos III de Madrid, July 2020.
+	José Héctor Penadés-Migallón, Re-identificación de personas a partir de múltiples capturas mediante aprendizaje automático, 
+	Trabajo Fin de Grado, Universidad Carlos III de Madrid, July 2020.
 
 
 
