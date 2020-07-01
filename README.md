@@ -13,12 +13,14 @@ Then, there is a set of scripts to create the blobs from the datasets using the 
 
 <br />
 
-# Citation
+Citation
 Please cite dataset_factory_from_reid_multi in your publications if it helps your research:
-@article{gomez2019balancing,
   title={“Re-identificación de personas a partir de múltiples capturas mediante aprendizaje automático”},
   author={Penades Migallon, Jose Hector},
   year={2020},
  
 }
 Gómez-Silva, M. J., Armingol, J. M., & Escalera, A. D. L. (2019). Balancing people re-identification data for deep parts similarity learning. Journal of Imaging Science and Technology, 63(2), 20401-1.
+
+
+Example of how to use data_factory_from_reid
