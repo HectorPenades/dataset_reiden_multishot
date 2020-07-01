@@ -17,7 +17,7 @@ Please cite dataset_reiden_multishot in your publications if it helps your resea
 
 
 # Example of how to use data_factory_from_reid
-This is an example of how to use data_factory_from_reid with PRID2011[2]:
+This is an example of how to use data_factory_from_reid_multi with PRID2011[2]:
  <br />
   <br />
 
@@ -34,7 +34,7 @@ This is an example of how to use data_factory_from_reid with PRID2011[2]:
      &nbsp;&nbsp;&nbsp;&nbsp;create_test_data_multiple(prid, i, &tag); <br />
    
    
-NOTE:be careful with PRID samples whose identification number is higher than 200, because different people in cam a and b are labbelled with the same number, from id 200. Alternative solution: remove samples with ID higher than 200 in cam_a set, they are not neccesarry in the training and test described in [3].
+NOTE: be careful with PRID samples whose identification number is higher than 200, because different people in cam a and b are labbelled with the same number, from id 200. Alternative solution: remove samples with ID higher than 200 in cam_a set, they are not neccesarry in the training and test described in [3].
 
 <br />
 
