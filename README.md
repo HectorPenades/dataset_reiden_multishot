@@ -1,11 +1,9 @@
 # dataset_reiden_multishot
  dataset_factory
 
-This repository contains two groups of functions in C++
+This repository contains one group of functions in C++
 
-- data_factory_from_reid: generation of pairs and triplets from Re-Identification datasets with the division of the samples in train, validation and test sets, according to the protocol described by described in [3].
-
-- data_factory_from_mot: generation of pairs, triplets and tracklets from Multi-object tracking datasets with the division of the samples in train, validation and test sets, according to the protocol described by described in [3].
+- data_factory_from_reid_multi: generation of pairs from Re-Identification datasets with the division of the samples in train, validation and test sets, according to the protocol described by described in [3].
 
 The outputs are data txt files with labels, suitable for blobs creation to train deep networks with caffe.
 
