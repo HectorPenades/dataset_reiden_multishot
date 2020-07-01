@@ -12,7 +12,7 @@ This functions follow a similar structure of the single-shot code: data_factory_
 # Citation
 Please cite dataset_reiden_multishot in your publications if it helps your research:
 
-[1] José Héctor Penadés-Migallón, Re-identificación de personas a partir de múltiples capturas mediante aprendizaje automático, Trabajo Fin de Grado, Universidad Carlos III de Madrid, July 2020.
+	José Héctor Penadés-Migallón, Re-identificación de personas a partir de múltiples capturas mediante aprendizaje automático, Trabajo Fin de Grado, Universidad Carlos III de Madrid, July 2020.
 
 
 
@@ -36,6 +36,8 @@ This is an example of how to use data_factory_from_reid_multi with PRID2011 [2]:
 NOTE: be careful with PRID samples whose identification number is higher than 200, because different people in cam a and b are labbelled with the same number, from id 200. Alternative solution: remove samples with ID higher than 200 in cam_a set, they are not neccesarry in the training and test described in [3].
 
 <br />
+
+[1] José Héctor Penadés-Migallón, Re-identificación de personas a partir de múltiples capturas mediante aprendizaje automático, Trabajo Fin de Grado, Universidad Carlos III de Madrid, July 2020.
 
 [2]Person Re-Identification by Descriptive and Discriminative Classification, Martin Hirzer, Csaba Beleznai, Peter M. Roth and Horst Bischof, In Proc. Scandinavian Conference on Image Analysis (SCIA), 2011
 
