@@ -6,9 +6,6 @@ This repository contains one group of functions in C++
 
 The outputs are data txt files with labels, suitable for blobs creation to train deep networks with caffe.
 
-<br />
-Then, there is a set of scripts to create the blobs from the datasets using the generated data files (with the previous functions)
-- blobs_creation: generate caffe data blobs
 
 <br />
 
