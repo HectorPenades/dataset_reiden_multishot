@@ -40,7 +40,7 @@ NOTE: be careful with PRID samples whose identification number is higher than 20
 
 [1] José Héctor Penadés-Migallón, Re-identificación de personas a partir de múltiples capturas mediante aprendizaje automático, Trabajo Fin de Grado, Universidad Carlos III de Madrid, July 2020.
 
-[2] M. Hirzer, C. Beleznai, P.M. Roth, and H. Bischof, “Person Re-ID (PRID) Dataset”.Institute of Computer Graphics and Vision, 2011. Avalaible at: https://www.tugraz.at/institute/icg/research/team-bischof/lrs/downloads/prid11/
+[2] M. Hirzer, C. Beleznai, P.M. Roth, and H. Bischof, “Person Re-ID (PRID) Dataset”. Institute of Computer Graphics and Vision, 2011. Avalaible at: https://www.tugraz.at/institute/icg/research/team-bischof/lrs/downloads/prid11/
 
 [3] M. Hirzer, C. Beleznai, P.M. Roth, and H. Bischof (2011). Person re-identification by descriptive and discriminative classification. In Scandinavian conference on Image analysis, pages 91–102. Springer.
     
